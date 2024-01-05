@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 50px; /* Adjust as needed */
+  }
+
+#header-title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color:  rgb(26, 125, 211);
+  }
+
+input{
+    font-size: large;
+    width:500px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 3px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+    border-color: rgb(32, 143, 239);
+    color: rgb(32, 120, 198);
+    border-radius: 2px;
+    width :60px;
+    height: auto;
+    font-size: 24px;
+}
+
+main,header{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.delete-btn{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: rgb(26, 125, 211);
+    border-radius: 5px;
+    color: white;
+}
+
+.to-do-item{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    flex-grow: 1;
+}
